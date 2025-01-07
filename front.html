@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio de Matheus</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Portfólio de Matheus Teofilo Lopes</h1>
+        <p>Desenvolvedor Back-End - Trabalhando nas sombras do código</p>
+    </header>
+
+    <!-- Seção 1: Apresentação do Desenvolvedor -->
+    <div class="section" id="apresentacao">
+        <div class="developer-description">
+            <img src="https://cdn.discordapp.com/attachments/1170430139100835901/1325972296271400971/image.png?ex=677dbb6e&is=677c69ee&hm=1e6d653143027a30b96f513591645d8738190f4a5839bfecc1d3888e67970b04&" alt="Rosto do Desenvolvedor">
+            <h2>Matheus Teofilo Lopes</h2>
+            <p>"Olá, Me chamo Matheus Teofilo Lopes sou Desenvolvedor back-end a 2 anos com foco em criação e desenvolvimento de jogos atual trabalho em plataformas como o Fivem entre outros sou uma pessoa bem criativa e tenho paixão pela programação desde os 7 anos de idade quando eu começei a me questionar como os jogos eram feitos e ter a vontade de criar meus proprias com historia e aventuras malukas, tenho atualmente 16 (17/09/2008) anos de idade cursando o 2 Ano do Ensino Medio pela intituição de ensino Colegio Alicerce."</p>
+        </div>
+    </div>
+
+    <!-- Seção 2: Tecnologias -->
+    <div class="section" id="tecnologias">
+        <h2>Tecnologias</h2>
+        <p>Aqui você pode ver algumas das tecnologias com as quais trabalho e tenho conhecimento.</p>
+
+        <div class="tech-container">
+            <!-- Cubos de tecnologias -->
+            <div class="tech-item" onclick="showDescription('lua')">
+                <img src="https://cdn.discordapp.com/attachments/1170430139100835901/1325974788883087400/logo_1.png?ex=677dbdc1&is=677c6c41&hm=69a2d19fd731fa988a66588a1fdda8f23151d4a27a54d45ef8a5e5757ef9e10b&" alt="Lua">
+            </div>
+            <div class="tech-item" onclick="showDescription('mysql')">
+                <img src="https://cdn.discordapp.com/attachments/1170430139100835901/1325975529031204934/imagem_2025-01-06_205309361-removebg-preview.png?ex=677dbe71&is=677c6cf1&hm=a2baab470776384fac39a8834d79c6a8f978f9f1e30fc9fb0b36f7cfe0006757&" alt="Mysql">
+            </div>
+            <div class="tech-item" onclick="showDescription('javascript')">
+                <img src="https://cdn.discordapp.com/attachments/1170430139100835901/1325975855482011768/H0c.png?ex=677dbebf&is=677c6d3f&hm=54637e2a94abd3fff71a1bcc1452e55cad735b7cea916510b5f7721fe6f344b7&" alt="JavaScript">
+            </div>
+            <!-- Adicione mais cubos conforme necessário -->
+        </div>
+
+        <!-- Descrições das tecnologias -->
+        <div id="tech-lua" class="tech-description">
+            <h3>Lua</h3>
+            <p>Lua é uma linguagem de script leve e eficiente, ideal para desenvolvimento em FiveM, o framework de modificação para GTA V. Sua sintaxe simples e flexível facilita a criação de scripts e recursos para servidores personalizados, permitindo uma integração fluida com a API do FiveM. Com uma performance otimizada, Lua é excelente para manipulação de eventos em tempo real, sistemas de dados como inventários e economia, e comunicação entre servidor e cliente. Sua facilidade de aprendizado, combinada com a capacidade de implementar funcionalidades complexas, faz dela uma escolha popular entre desenvolvedores de servidores para FiveM.</p>
+        </div>
+        <div id="tech-mysql" class="tech-description">
+            <h3>Mysql</h3>
+            <p>O MySQL é um sistema de gerenciamento de banco de dados relacional amplamente utilizado em servidores de FiveM devido à sua praticidade e robustez. Ele permite criar e manipular tabelas de maneira eficiente através de código SQL, facilitando o armazenamento e a gestão de dados persistentes, como informações de jogadores, economia, inventários e progressão no jogo. Com MySQL, é possível executar operações como inserções, atualizações e consultas diretamente no banco de dados, proporcionando controle total sobre os dados. A integração com Lua em FiveM é simples e direta, utilizando bibliotecas como MySQL-async, que permitem que você faça chamadas assíncronas ao banco de dados, sem bloquear o fluxo do servidor. Essa combinação entre a flexibilidade de Lua para lógica de jogo e a capacidade do MySQL para gerenciar dados persistentes cria uma solução poderosa e eficiente para servidores personalizados no FiveM, oferecendo uma experiência dinâmica e rica para os jogadores.</p>
+        </div>
+        <div id="tech-javascript" class="tech-description">
+            <h3>JavaScript</h3>
+            <p>JavaScript é uma linguagem poderosa e versátil, ideal para quem está começando a programar. Sua sintaxe simples permite criar desde scripts pequenos até aplicações complexas, sendo usada tanto no frontend quanto no backend. A linguagem é assíncrona, facilitando a criação de interações dinâmicas e em tempo real. Com uma grande comunidade e muitos recursos de aprendizado, JavaScript oferece muitas possibilidades para quem tem vontade de aprender e começar a desenvolver suas próprias soluções, utilizando frameworks como React e Node.js para potencializar seus projetos.</p>
+        </div>
+    </div>
+
+    <!-- Seção 3: Projetos -->
+    <div class="section" id="projetos">
+        <h2>Projetos</h2>
+        <div class="project">
+            <h3>Sistema de lock-pick</h3>
+            <p>Esse projeto foi desenvolvido durante minha "estadia" em uma cidade conhecida como Alpes RP, por necessidade dos donos e também por meu interesse. Criei, testei e já está finalizado o projeto. Logo disponibilizo o link caso queiram testar e ver a eficiência do projeto <a href="https://cdn.discordapp.com/attachments/1170430139100835901/1325977603479179314/cLT_lockPick.rar?ex=677dc060&is=677c6ee0&hm=deea1b9d6597cb007cb77068a83771bcef9c6078bdf440c2cad2f39438ed7407&" class="blue-link">Link</a></p>
+        </div>
+        <div class="project">
+            <h3>Sistema de venda de drogas para NPC</h3>
+            <p>Neste projeto, criei um sistema em vRP para que os jogadores conseguissem realizar vendas para NPC's através de áreas, ou seja, determinada área dava mais ou menos dinheiro ou aceitava determinado tipo de droga ou não. Segue o link para testes e visualização do código <a href="https://cdn.discordapp.com/attachments/1170430139100835901/1325978908352581762/cLT_sellDrugs.rar?ex=677dc197&is=677c7017&hm=85ca96c052dbc16ca755cf7c5aa5a08c4bf0f3e5581d80ad53118cb414427670&" class="blue-link">Link</a></p>
+        </div>
+        <div class="project">
+            <h3>Sistema de Pagamentos para os jogadores</h3>
+            <p>Neste projeto, desenvolvi um sistema que pagava os jogadores dependendo de seus cargos ou VIPs ou um grupo selecionado como "CV.permissao", que era uma facção. Logo disponibilizo o código para melhor visualização e entendimento de minha lógica <a href="https://cdn.discordapp.com/attachments/1170430139100835901/1325980474211827732/vrp_payment.rar?ex=677dc30c&is=677c718c&hm=1ac6af4ba28c51b43e663bfd9c3c1caab5f051d569c3fe16150d4e5401359d95&" class="blue-link">Link</a></p>
+        </div>
+    </div>
+
+    <!-- Seção 4: Avaliações de Empregadores -->
+    <div class="section" id="avaliacoes">
+        <h2>Avaliações de Empregadores</h2>
+        <div class="testimonials-container">
+            <!-- Avaliação 1 -->
+            <div class="testimonial active">
+                <img src="https://cdn.discordapp.com/attachments/1170430139100835901/1325984652715884595/Imagem_do_WhatsApp_de_2025-01-06_as_21.28.07_b880be86.jpg?ex=677dc6f0&is=677c7570&hm=556a5084d8ff86960a7747735adab2b5931b48cb8490d3c634e556e5ec4f0026&" alt="Imagem do Empregador">
+                <h3>Ygor Santana</h3>
+                <p>"Eu Ygor Santana, ex cofundador do Alpes Roleplay, venho por meio deste, falar sobre a recomendação do desenvolvedor Matheus Teófilo. O mesmo é um excelente profissional na área do desenvolvimento, desde quando começamos a trabalhar juntos, ele se demonstrou extremamente capaz de atender as demandas que eu encaminhava. Mesmo com algumas limitações em questão de horários, mas sempre conseguiu realizar suas funções com êxito. Matheus desempenhou um papel muito importante para o Alpes Roleplay, tanto como desenvolvedor quanto conselheiro e amigo."</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+
+</body>
+</html>
