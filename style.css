@@ -43,12 +43,14 @@ header {
     height: 250px;
 }
 .testimonial {
-    width: 80%;
+    width: 110%;
+    max-width: 2500px;  
     text-align: center;
     opacity: 0;
     transform: translateY(50px);
     transition: opacity 0.5s ease, transform 0.5s ease;
     display: none;
+    margin: 0 auto;  
 }
 .testimonial.active {
     display: block;
@@ -68,10 +70,14 @@ header {
 }
 .testimonial p {
     color: #e0e0e0;
+    word-wrap: break-word;      
+    overflow-wrap: break-word;  
+    white-space: normal;       
 }
 .testimonials-container:hover .testimonial {
     animation-play-state: paused;
 }
+
 @keyframes testimonialLoop {
     0% {
         opacity: 0;
